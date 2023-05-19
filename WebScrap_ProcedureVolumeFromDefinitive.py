@@ -40,7 +40,7 @@ driver.get("https://sts.defhc.com/Account/Login?Username=nskerpon@its.jnj.com")
 
 # Log in
 def login(driver):
-    driver.get("https://sts.defhc.com/Account/Login?Username=nskerpon@its.jnj.com")
+    driver.get("https://sts.defhc.com/Account/Login?Username= " # the username is hidden for confidential reason)
     password_field = driver.find_element(By.ID, "Password")
     password_field.send_keys(PASSWORD)
     login_button = driver.find_element(By.XPATH, "//button[@value='Log in']")
