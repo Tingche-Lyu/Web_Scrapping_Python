@@ -10,8 +10,8 @@ from selenium.common.exceptions import ElementClickInterceptedException
 
 
 # Constants
-USERNAME = "nskerpon@its.jnj.com"
-PASSWORD = "Happy@2022"
+USERNAME = # the username is hidden for confidential reason
+PASSWORD = # the password is hidden for confidential reason
 
 #CPT code on the left of the first page
 
